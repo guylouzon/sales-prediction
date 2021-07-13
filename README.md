@@ -40,4 +40,31 @@ We’re going to have to do some feature engineering before we EDA
 
 ![image](https://user-images.githubusercontent.com/9468761/125506276-80434397-5b2a-4da7-a6fa-b129016c5d78.png)
 
+## Preprocessing
+
+Our anchor dataset is of order items over time, for each main object: product, customer or seller, we’ll join with order items, then group by the object, trying to get any extra information that we can
+
+So, we got:
+	The obvious: average sales, total sale count, total sales sum
+	more: lifetime, age in the system
+	trends: the sales amount per week, for the training period, is the object active (sold in the month), was the object selling more than or less than in the last month in comparison to the previous
+  
+  ![image](https://user-images.githubusercontent.com/9468761/125506399-fdc6ec10-3c8b-45eb-9880-7573f10bcce7.png)
+
+
+## Analysis – time from the last sale/ purchase
+
+The metric – the time past since the last sale and end of training period.
+The more the distribution is closer to zero (less time) – the better:
+	we have relatively a lot of new sellers
+	we have an good enough variety of product sold
+	we have a new customers issue…
+
+![image](https://user-images.githubusercontent.com/9468761/125506531-b793db58-f497-4b1b-bce2-4b9bf20fcc22.png)
+
+
+
+
+
+  
 
