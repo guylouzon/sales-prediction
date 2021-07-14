@@ -1,6 +1,12 @@
 # sales-prediction
 a python based time series segmentation and prediction for retail sales 
 
+https://github.com/GuyLou/sales-prediction/blob/main/olist-online-sales-prediction-time-series-forecast.ipynb
+
+https://www.kaggle.com/guylouzon/olist-online-sales-prediction-time-series-forecast
+
+
+
 
 ## Preface
 
